@@ -85,6 +85,7 @@ button > img:active{
 }
 .error-text{
     color: hsl(0, 93%, 68%);
+    text-align:left;
 }
 .show{
     display: inline !important;
