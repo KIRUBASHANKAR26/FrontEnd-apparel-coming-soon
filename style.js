@@ -17,6 +17,7 @@ function check()
    
   }else
   {
+      errorIcon.classList.remove("show");
       emailInput.style.border = "1px solid hsl(0, 36%, 70%)";
       var errorText=document.createElement('p');
       errorText.className='error-text';
