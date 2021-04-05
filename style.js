@@ -4,7 +4,7 @@ function check()
   var emailInput=document.getElementById("email-input");
   var btn=document.getElementById("text-error");
   var errorIcon=document.getElementById("error-img");
-  if(!emailInput.checkValidity())
+  if(!emailInput.checkValidity() || || emailInput.value === "")
   {
     errorIcon.classList.add("show");
     emailInput.style.border="3px solid hsl(0, 93%, 68%)";
